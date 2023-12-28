@@ -55,8 +55,6 @@ public class OneOfEachStats {
 					r = generator.nextDouble();
 					probability = (int) (r * N);
 
-					System.out.println(probability);
-
 					//checking if it is a girl or a boy
 					if (probability == 0) {
 						isBoy = true;
